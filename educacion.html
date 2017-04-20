@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EF-Educación</title>
+</head>
+<body>
+  <header>
+    <svg width="400" height="130">
+      <image x="20" y="05" width="90px" height="120px" xlink:href="images/logoef.svg"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Edgar Fernández C.</h2>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+  </nav>
+  <p><h2>Educación</h2></p>
+
+  <table border="1">
+    <tr align="center">
+      <th width="100">Año</th>
+      <th width="300">Institución</th>
+      <th width="200">Lugar</th>
+      <th width="100">¿Culminó?</th>
+    </tr>
+    <tr>
+      <td align="center">1981</td>
+      <td>Escuela Amable Araúz</td>
+      <td>Conocoto</td>
+      <td align="center">Si</td>
+    </tr>
+    <tr>
+      <td align="center">1987</td>
+      <td>Colegio San Vicente de Paúl</td>
+      <td>Conocoto</td>
+      <td align="center">Si</td>
+    </tr>
+    <tr>
+      <td align="center">1994</td>
+      <td>Escuela Politécnica Nacional</td>
+      <td>Quito</td>
+      <td align="center">Si</td>
+    </tr>
+    <tr>
+      <td align="center">2001</td>
+      <td>Escuela Politécnica Javeriana</td>
+      <td>Quito</td>
+      <td align="center">Si</td>
+    </tr>
+    <tr>
+      <td align="center">2010</td>
+      <td>Ecuasol - Software Libre</td>
+      <td>Quito</td>
+      <td align="center">Si</td>
+    </tr>
+  </table>
+  <hr>
+  <h2>Agregar Educación</h2>
+
+  <form  action="" autocomplete="on" name="Formulario">
+    <fieldset>
+    <p>
+      <label for="anio">Año</label>
+      <input type="number" name="anio" step="1" maxlength="5" min="1980" max="2017" autofocus>
+    </p>
+    <p>
+      <label for="instititucion">Institución:</label>
+      <input type="text" name="institucion"  size="50px" required>
+    </p>
+    <p>
+      <label for="lugar">Lugar:</label><br>
+      <textarea name="lugar" rows="4" cols="40"></textarea>
+    </p>
+    <p>
+      ¿Culminó?:
+      <input type="radio" name="culmino" value="si" checked="checked"/>Si
+      <input type="radio" name="culmino" value="no"/>No<br>
+    </p>
+    <p>
+      <input type="submit" name="enviar" value="Enviar"/>
+    </p>
+  </fieldset>
+  </form>
+
+  <footer>
+    <hr>
+    <p>® Derechos Reservados</p>
+    <p><strong>Email:</strong> <a href="mailto: edganif@gmail.com">edganif@gmail.com</a></p>
+    <p><strong>Teléfono: </strong> (02) 2345-847</p>
+    <p><strong>Dirección: </strong>Quito - Ecuador</p>
+    <hr>
+  </footer>
+</body>
+</html>
